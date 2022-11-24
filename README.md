@@ -17,6 +17,7 @@ Other files:
  - fsk_tx.grc was the file used to test transmission
  - fsk_rx.grc was the file used to test reception
  - generate_trame.py output the packet and saved it to a binary file
+ - protocol.proto.xml shows example of received packet from the Retekess transmitter, this can be opened in URH (https://github.com/jopohl/urh)
 
 ## Modulation
  - Modulation: 2-FSK
