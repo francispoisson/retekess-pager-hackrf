@@ -13,6 +13,8 @@ This is a python code that allows control of a restaurant pager system from Rete
 ## Use
 In command-line, type "python3 retekess_tx.py 0x000", replace '0x000' by the desired pager ID (BCD-coded: 0x010 for pager 10).
 
+See example: https://youtu.be/l9VuGyAM_wk
+
 Other files:
  - fsk_tx.grc was the file used to test transmission
  - fsk_rx.grc was the file used to test reception
@@ -40,5 +42,4 @@ Other files:
    - If third byte of pager ID is larger than the first byte of pager ID, than: third byte of pager ID - 1
    
    The packet is sent ten times back to back for a total of 1500 bits.
-   
-   https://youtu.be/l9VuGyAM_wk
+  
