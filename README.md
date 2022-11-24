@@ -8,9 +8,15 @@ This is a python code that allows control of a restaurant pager system from Rete
 ## Prerequisites
  - Python 3.8
  - GNU Radio 3.10.x
+ - Hack RF
 
 ## Use
 In command-line, type "python3 retekess_tx.py 0x000", replace '0x000' by the desired pager ID (BCD-coded: 0x010 for pager 10).
+
+Other files:
+ - fsk_tx.grc was the file used to test transmission
+ - fsk_rx.grc was the file used to test reception
+ - generate_trame.py output the packet and saved it to a binary file
 
 ## Modulation
  - Modulation: 2-FSK
