@@ -40,3 +40,5 @@ Other files:
    - If third byte of pager ID is larger than the first byte of pager ID, than: third byte of pager ID - 1
    
    The packet is sent ten times back to back for a total of 1500 bits.
+   
+   https://youtu.be/l9VuGyAM_wk
