@@ -37,9 +37,9 @@ Other files:
    - Formula: Rolling code + number of significant byte in pager ID - 5 (if result is smaller than 0, than add 15)
    - Example if rolling code is 2 and pager ID is 0x012: (2+2-5)+15 = 14 = 0xE
   - Checksum #2 (1 byte)
-   - If first byte of pager ID is larger than the third byte of pager ID, than: first byte of pager ID - 1
-   - If central byte of pager ID is larger than the two other bytes, than: 0xF
-   - If third byte of pager ID is larger than the first byte of pager ID, than: third byte of pager ID - 1
+    - If first byte of pager ID is larger than the third byte of pager ID, than: first byte of pager ID - 1
+    - If central byte of pager ID is larger than the two other bytes, than: 0xF
+    - If third byte of pager ID is larger than the first byte of pager ID, than: third byte of pager ID - 1
    
    The packet is sent ten times back to back for a total of 1500 bits.
   
